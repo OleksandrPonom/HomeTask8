@@ -1,0 +1,62 @@
+INSERT INTO worker (NAME, BIRTHDAY, LEVEL, SALARY) VALUES
+('Taras Julius', '1983-10-20', 'Senior', 50000),
+('Daniil Dou', '1995-01-15', 'Junior', 10000),
+('Milky Grey', '2000-03-25', 'Middle', 15000),
+('Mishel Willow', '2005-12-03', 'Trainee', 2000),
+('Sabrina Martin', '1980-11-14', 'Middle', 28000),
+('Ilona Dry', '1993-04-04', 'Senior', 55000),
+('Jon Red', '1995-02-01', 'Middle', 30000),
+('Jasmin Star', '1998-09-13', 'Junior', 12000),
+('Justin Bieber', '1994-05-22', 'Middle', 35000),
+('Alis Crow', '2003-08-08', 'Trainee', 2500);
+
+INSERT INTO client (NAME) VALUES
+('Shon Debit'),
+('Staysi Kuk'),
+('Mariana Stoun'),
+('Karim Jams'),
+('Daniel Kim');
+
+INSERT INTO project (CLIENT_ID, START_DATE, FINISH_DATE) VALUES
+(1,'2001-12-15','2009-11-15'),
+(2,'2010-11-28','2018-07-20'),
+(3,'2018-01-18','2022-08-10'),
+(4,'2018-11-23','2021-10-15'),
+(1,'2020-01-20','2022-03-11'),
+(5,'2021-08-10','2022-03-30'),
+(2,'2021-10-28','2022-02-10'),
+(4,'2022-04-20','2023-11-07'),
+(3,'2022-07-28','2024-01-10'),
+(5,'2023-07-20','2024-01-15');
+
+INSERT INTO project_worker (PROJECT_ID, WORKER_ID) VALUES
+(1,1),
+(1,6),
+(1,8),
+(1,9),
+(2,3),
+(2,5),
+(2,10),
+(3,6),
+(3,9),
+(3,8),
+(3,4),
+(4,1),
+(4,5),
+(4,3),
+(4,2),
+(5,6),
+(5,7),
+(5,4),
+(6,9),
+(6,3),
+(7,1),
+(7,7),
+(7,10),
+(8,5),
+(8,3),
+(8,8),
+(9,1),
+(9,4),
+(10,2),
+(10,7);
